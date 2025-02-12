@@ -41,7 +41,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once you have remoted in your virtual machine, you will open up Control Panel. In Control Panel, select "Uninstall a program" under "Programs". In the pop-up, click on "Turn Windows features on or off".
