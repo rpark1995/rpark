@@ -33,9 +33,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 1. You will begin by creating a Windows 10 virtual machine in Azure. First, navigate to https://portal.azure.com/. Make sure to select Windows 10 Pro version 22H2 as your image. You want to make sure that your virtual machine contains at least 2 vCPU's and 16 GB of memory to prevent slowdowns.
-2. Once you created your virtual machine, you will access it remotely from your personal workstation. Go to the start menu on your personal workstation and type Remote Desktop (or RDP for short). Then copy the public IP address on the overview page and paste it next to the blank space to the right of "Computer" in Remote Desktop. Type in your username and the password then click "Connect".
+  </p>
+<p>
+2. Once you created your virtual machine, you will access it remotely from your personal workstation. Go to the start menu on your personal workstation and type Remote Desktop (or RDP for short). Then copy the public IP address on the overview page and paste it next to the blank space to the right of "Computer" in Remote Desktop. Type in your username and the password then click "Connect".    
+  </p>
   
-</p>
 <br />
 
 <p>
