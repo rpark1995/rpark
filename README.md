@@ -44,7 +44,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once you have remoted in your virtual machine, you will open up Control Panel. In Control Panel, select "Uninstall a program" under "Programs". In the pop-up, click on "Turn Windows features on or off".
+3. Once you have remoted in your virtual machine, you will open up Control Panel. In Control Panel, select "Uninstall a program" under "Programs". In the pop-up, click on "Turn Windows features on or off".
 </p>
 <br />
 
@@ -52,6 +52,46 @@ Once you have remoted in your virtual machine, you will open up Control Panel. I
 <img src="https://imgur.com/kSyqpaC" height="80%" width="80%" alt="Control Panel"/>
 </p>
 <p>
-Now you will want to install and enable IIS with CGI. In the Windows features pop-up window, mark the box next to "Internet Information Services" and click the plus icon to expand the options. Next, expand Application Development Features and check the box next to "CGI". This will enable IIS.
+4. Now you will want to install and enable IIS with CGI. In the Windows features pop-up window, mark the box next to "Internet Information Services" and click the plus icon to expand the options. Next, expand Application Development Features and check the box next to "CGI". 
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+5. Now that IIS is enabled, download and install both PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) and the Rewrite Module (rewrite_amd64_en-US.msi) from the “osTicket-Installation-Files” folder.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+6. Create a new directory named "PHP" in your C drive (C:\PHP)
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+7. Next, you will download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the file into C:\PHP, the new directory you just created.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+8. Download and install VC_redist.x86.exe from the “osTicket-Installation-Files” folder.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+9. Next, you will install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the “osTicket-Installation-Files” folder. In the setup wizard, select "Typical" for setup type -> select "Standard Configuration" for instance configuration -> make sure "Modify Security Settings" is checked and type in the root password. Click on "Next" and execute the process on the next page. 
 </p>
 <br />
